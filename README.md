@@ -32,4 +32,15 @@ Just configure like this image and press the green button "Save & Test", if ever
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard.png)
 Then you will be in a new dashboard, so click to add a query:
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard_2.png)
+In the new window will be a field to do a query in database, click in the pen to change to text mode:
+![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard_2_5.png)
+So confirm if the database select is correct and type the follow query:
+> SELECT Temperature FROM data WHERE $timeFilter
+![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard_3.png)
+When you click out of query field, the data will start to appear on the graphic. On the top-right side you can adjust the time axis and refresh time like this:
+![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard_4.png)
+And finally you can explore more about grafana visualization:
+![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard_5.png)
 
+Find more about influx usage on the documentation:
+https://docs.influxdata.com/influxdb/v1.7/introduction/getting-started/

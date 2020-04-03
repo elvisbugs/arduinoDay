@@ -2,7 +2,7 @@
 
 Acess 
 <a href="https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino">this link</a> to learn about the API used to write data direct from esp to Influx. 
-And <a href="https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino/blob/master/examples/BasicWrite/BasicWrite.ino">here</a>  the example that I used to write the esp code.
+And <a href="https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino/blob/master/examples/BasicWrite/BasicWrite.ino">here</a>  the example that I used to write the esp 8266 code.
 
 # Setting Influx
 To start influx db just unzip the folder and start the influxd.exe. While it is open the influx is running. Now open a cmd in influx folder, type influx and press enter. You will see something like this:

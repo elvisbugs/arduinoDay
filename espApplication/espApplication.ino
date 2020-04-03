@@ -2,8 +2,8 @@
 #include <InfluxDbClient.h>
 
 //wifi configs
-String ssid = "ELVIS_oi_fibra_2.4G";
-String password = "10909574";
+String ssid = "wifi_ssid";
+String password = "wifi_password";
 
 // InfluxDB 2 server url, e.g. http://192.168.1.48:9999 (Use: InfluxDB UI -> Load Data -> Client Libraries)
 #define INFLUXDB_URL "http://192.168.100.4:8086"

@@ -24,7 +24,7 @@ Install grafana using the installer to windows (available in this repository), s
 successfully installed, you will see a login page like this:
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/grafana_login.png)
 
-The default login is login = admin and password = admin.
+The default login is "admin" and password "admin".
 
 Once you logged, you can create a data source with you influx database, so click in "Create a data source" and choose influxDB, you will be in a configuration page like this image:
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/grafana_db_config.png)
@@ -34,7 +34,7 @@ Then you will be in a new dashboard, so click to add a query:
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard_2.png)
 In the new window will be a field to do a query in database, click in the pen to change to text mode:
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard_2_5.png)
-So confirm if the database select is correct and type the follow query:
+So confirm if the database selected is correct and type the following query:
 > SELECT Temperature FROM data WHERE $timeFilter
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard_3.png)
 When you click out of query field, the data will start to appear on the graphic. On the top-right side you can adjust the time axis and refresh time like this:

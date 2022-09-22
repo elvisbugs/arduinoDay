@@ -27,7 +27,9 @@ successfully installed, you will see a login page like this:
 The default login is "admin" and password "admin".
 
 Once you logged, you can create a data source with you influx database, so click in "Create a data source" and choose influxDB, you will be in a configuration page like this image:
+
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/grafana_db_config.png)
+
 Just configure like this image and press the green button "Save & Test", if everything is right, you will see a message saying that the data source is working, so click in "Back" button and you can create a new dash board:
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/new_dashboard.png)
 Then you will be in a new dashboard, so click to add a query:

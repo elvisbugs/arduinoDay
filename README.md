@@ -1,6 +1,6 @@
 # arduinoDay grafana repository 
 
-Acess 
+Access 
 <a href="https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino">this link</a> to learn about the API used to write data direct from esp to Influx. 
 And <a href="https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino/blob/master/examples/BasicWrite/BasicWrite.ino">here</a>  the example that I used to write the esp 8266 code.
 
@@ -12,7 +12,7 @@ To start influx db just unzip the folder and start the influxd.exe. While it is 
 Then type the follow command to create a new database:
 >CREATE DATABASE arduinoDay
 
-To see if database was created, type "show databases" and see a list of all databases. If it's ok, create admin user to this database with this commands:
+To see if the database was created, type "show databases" and see a list of all databases. If it's ok, create admin user to this database with this commands:
 >CREATE USER "admin" WITH PASSWORD 'admin'
 
 >use arduinoDay
@@ -26,7 +26,7 @@ successfully installed, you will see a login page like this:
 
 The default login is "admin" and password "admin".
 
-Once you logged, you can create a data source with you influx database, so click in "Create a data source" and choose influxDB, you will be in a configuration page like this image:
+Once you logged in, you can create a data source with you influx database, so click in "Create a data source" and choose influxDB, you will be in a configuration page like this image:
 
 ![alt text](https://github.com/Angar0th/arduinoDay/blob/master/instructions%20to%20grafana/grafana_db_config.png)
 
